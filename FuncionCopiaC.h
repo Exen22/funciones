@@ -1,18 +1,7 @@
-#include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
-
-using namespace std;
+#include <stdio.h>
 
 void copia(const char*,const char*);
-
-int main(){
-    system("cls");
-    
-    copia("nombre.txt", "nombrecopia.txt");
-    return 0;
-}
 
 
 void copia(const char* nombre_archivo,const char* nombre_copia){
@@ -40,7 +29,7 @@ void copia(const char* nombre_archivo,const char* nombre_copia){
 
     }
     else{
-        cout<<"\n\nNO SE HA ENCONTRADO ESE ARCHIVO\n\n";
+        printf("\n\nNO SE HA ENCONTRADO ESE ARCHIVO\n\n");
     }
     
 

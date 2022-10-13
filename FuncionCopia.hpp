@@ -1,18 +1,9 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 
 using namespace std;
 
 void copia(const char*,const char*);
-
-int main(){
-    system("cls");
-    
-    copia("nombre.txt", "nombrecopia.txt");
-    return 0;
-}
 
 
 void copia(const char* nombre_archivo,const char* nombre_copia){
